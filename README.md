@@ -20,7 +20,7 @@
 
 
 
-* `"cookies" `: 这个直接在下图找到，并且填写好保存
+* `"cookies" `: 这个需要在Whisk界面随便上传一张图片才会出现，然后看下面图片所示，并且填写好保存
   
 ![049cdc2fcd74fcc47540c6f0d856bc6](https://github.com/user-attachments/assets/4d9e2639-f41e-41e2-9229-b91ef01788f4)
 
