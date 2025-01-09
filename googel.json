@@ -1,0 +1,27 @@
+{
+    "user": {
+        "name": "",
+        "email": "",
+        "image": ""
+    },
+    "expires": "",
+    "access_token": "",
+    "cookies": [
+        {
+            "name": "_ga",
+            "value": "GA1.1.206839949.1734415920"
+        },
+        {
+            "name": "EMAIL",
+            "value": ""
+        },
+        {
+            "name": "__Secure-next-auth.session-token",
+            "value": ""
+        },
+        {
+            "name": "__Host-next-auth.csrf-token",
+            "value": ""
+        }
+    ]
+}

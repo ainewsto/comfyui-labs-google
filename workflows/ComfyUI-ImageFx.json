@@ -1,0 +1,147 @@
+{
+  "last_node_id": 14,
+  "last_link_id": 11,
+  "nodes": [
+    {
+      "id": 12,
+      "type": "ComfyUI-ImageFx",
+      "pos": [
+        480.75103759765625,
+        13.325160026550293
+      ],
+      "size": [
+        409.5832214355469,
+        310.7392272949219
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "generated_images",
+          "type": "IMAGE",
+          "links": [
+            10
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "seed",
+          "type": "STRING",
+          "links": [
+            11
+          ],
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ComfyUI-ImageFx"
+      },
+      "widgets_values": [
+        "A CHUBBY REAL BLACK CAT WEARING A SAILOR MOON COSTUME SKIING ON A DESERTED SNOW MOUNTAIN",
+        84691,
+        "randomize",
+        "1:1 (Square)",
+        4
+      ]
+    },
+    {
+      "id": 14,
+      "type": "ShowText|pysssss",
+      "pos": [
+        486.9401550292969,
+        424.43902587890625
+      ],
+      "size": [
+        406.17877197265625,
+        77.33100128173828
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 11,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null,
+          "shape": 6
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "",
+        "765655"
+      ]
+    },
+    {
+      "id": 13,
+      "type": "PreviewImage",
+      "pos": [
+        963.2437133789062,
+        -146.41323852539062
+      ],
+      "size": [
+        866.6326904296875,
+        897.4074096679688
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 10
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    }
+  ],
+  "links": [
+    [
+      10,
+      12,
+      0,
+      13,
+      0,
+      "IMAGE"
+    ],
+    [
+      11,
+      12,
+      1,
+      14,
+      0,
+      "STRING"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.6830134553650707,
+      "offset": [
+        -190.9710638625151,
+        333.1789510131922
+      ]
+    }
+  },
+  "version": 0.4
+}
