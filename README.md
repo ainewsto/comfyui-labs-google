@@ -59,8 +59,7 @@ https://github.com/comfyanonymous/ComfyUI
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ainewsto/Comfyui_Comfly,ainewsto/comfyui-labs-google&type=Date)](https://star-history.com/#ainewsto/Comfyui_Comfly&ainewsto/comfyui-labs-google&Date)
-
+[![Star History Chart](https://api.star-history.com/svg?repos=ainewsto/comfyui-labs-google&type=Date)](https://star-history.com/#ainewsto/comfyui-labs-google&Date)
 
 
 ## 🚀 About me
