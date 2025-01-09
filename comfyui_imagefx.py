@@ -10,6 +10,7 @@ from PIL import Image, UnidentifiedImageError
 from typing import List, Union, Tuple
 import comfy.utils
 from .utils import pil2tensor, tensor2pil
+import chardet
 
 class ComfyUIImageFxNode:
     def __init__(self):
@@ -27,14 +28,20 @@ class ComfyUIImageFxNode:
             current_dir = os.path.dirname(os.path.abspath(__file__))
             config_file_path = os.path.join(current_dir, 'googel.json')
 
-            with open(config_file_path, 'r') as f:
+            with open(config_file_path, 'rb') as file:
+                content = file.read()
+                encoding = chardet.detect(content)['encoding']
+
+            with open(config_file_path, 'r', encoding=encoding) as f:
                 self.auth_config = json.load(f)
                 
             self.access_token = self.auth_config.get('access_token')
+            self.user = self.auth_config.get('user', {})
+            self.expires = self.auth_config.get('expires')
+            self.cookies = {cookie['name']: cookie['value'] for cookie in self.auth_config.get('cookies', [])}
+
             if not self.access_token:
                 raise ValueError("Access token not found in googel.json")
-            
-            self.cookies = {cookie['name']: cookie['value'] for cookie in self.auth_config.get('cookies', [])}
 
         except Exception as e:
             print(f"Authentication initialization error: {str(e)}")
