@@ -36,15 +36,15 @@
 
 ## ComfyUI-Whisk🌪️
 * `Whisk `: 因为人间这位小天使不断地问我谷歌这个反推，我昨天有时间就弄了，这个节点可以用啦反推图片。而且比官方一次生成图片更多，可生成4张图片。 
+![8fdf6a4ac8beb4650c0afb31e3a1cc9](https://github.com/user-attachments/assets/a50723a0-78b5-4554-922c-aa416d496ad4)
 
-![8b614f5cc8fdecb56c278ff74f0818d](https://github.com/user-attachments/assets/e93849e1-0414-4110-83a5-77716d230d2d)
+
 
   
   
 ## ComfyUI-ImageFx🖼️
 * `ImageFx`: 跟官方一样，就是文生图节点。
-  
-![8fdf6a4ac8beb4650c0afb31e3a1cc9](https://github.com/user-attachments/assets/a50723a0-78b5-4554-922c-aa416d496ad4)
+![8b614f5cc8fdecb56c278ff74f0818d](https://github.com/user-attachments/assets/e93849e1-0414-4110-83a5-77716d230d2d)  
 
 
 
