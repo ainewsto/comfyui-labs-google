@@ -10,6 +10,6 @@ Repository = "https://github.com/ainewsto/comfyui-labs-google"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "ainewsto"
 DisplayName = "comfyui-labs-google"
 Icon = ""
