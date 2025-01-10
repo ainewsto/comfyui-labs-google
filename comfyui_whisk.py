@@ -333,7 +333,7 @@ class WhiskPromptsNode:
     def INPUT_TYPES(cls):
         return {
             "required": {
-                "prompts": ("STRING", {"multiline": True}),
+                "prompts": ("STRING", {"forceInput": True}),
             },
         }
 
