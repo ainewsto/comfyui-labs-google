@@ -6,7 +6,7 @@
 
 <a href="https://ainewsto.com"> <img alt="Static Badge" src="https://img.shields.io/badge/Comfyui_forum-online-fffd01.svg"> </a>
 # 👋🏻 如何设置api（非官方）?
-
+## 视频教程地址：https://www.bilibili.com/video/BV1NnrCYCE9d
 ## 请打开googel.json文件，如下图所示
 
 ![3736698276867701ade5ba6e8f34545](https://github.com/user-attachments/assets/5914fa4a-db9a-4552-8b36-6adc4b7eaffd)
