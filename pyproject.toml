@@ -1,6 +1,6 @@
 [project]
-name = "labs-google"
-description = "NODES: ComfyUI-ImageFx, ComfyUI-Whisk"
+name = "comfyui-labs-google"
+description = "NODES: ComfyUI-ImageFx, ComfyUI-Whisk, ComfyUI-Whisk-Prompts"
 version = "1.0.0"
 license = {file = "LICENSE"}
 dependencies = ["requests", "pillow", "chardet"]
