@@ -1,0 +1,782 @@
+{
+  "last_node_id": 35,
+  "last_link_id": 58,
+  "nodes": [
+    {
+      "id": 4,
+      "type": "LoadImage",
+      "pos": [
+        -17.200326919555664,
+        847.0335083007812
+      ],
+      "size": [
+        322.08624267578125,
+        326.40093994140625
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            53
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "74304fd80d0b5339469565ed5c0bbd5.jpg",
+        "image"
+      ]
+    },
+    {
+      "id": 8,
+      "type": "ShowText|pysssss",
+      "pos": [
+        399.55047607421875,
+        957.962890625
+      ],
+      "size": [
+        404.6029052734375,
+        208.39244079589844
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 57,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null,
+          "shape": 6
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "",
+        "A close-up shot with a focus on a subject in the center.  The image uses a stylized, almost hyperrealistic rendering technique.  The color palette is dominated by warm, glowing oranges and reds, with a strong contrast between light and shadow.  The lighting is dramatic, with a strong light source seemingly emanating from behind the subject, creating a rim light effect and highlighting the texture. The overall aesthetic is playful yet slightly sinister, with a focus on creating a sense of depth and vibrancy. The image has a slightly desaturated look, with a focus on warm tones.  The texture is soft and plush, giving a sense of depth and realism.\n"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "ShowText|pysssss",
+      "pos": [
+        397.2067565917969,
+        610.9234619140625
+      ],
+      "size": [
+        414.1781921386719,
+        284.1037902832031
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 56,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null,
+          "shape": 6
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "",
+        "A large digital billboard displaying the words \"The ainewsto\" in a sans-serif font on a reddish-orange background hangs from a rocky overhang.  Below it, a gray-brown sectional sofa sits on a reddish-brown sandy surface. A person with light skin tone and short, light-colored hair sits on the sofa, wearing a light-colored outfit.  Another person, also with light skin tone, is partially visible behind them.\n\nFurther away, another gray-brown sectional sofa is visible. Three people are seated on it. One person appears to be a woman with dark hair and medium skin tone, wearing a light-colored top.  Another person appears to be a woman with dark hair and medium skin tone, wearing a dark-colored top. The third person appears to be a man with dark hair and medium skin tone.\n\nIn the background, a large, metallic spacecraft hovers in the air, kicking up dust. The setting appears to be a desert landscape with reddish-brown sand and rocky formations. The sky is clear and light blue. The overall lighting suggests it is daytime. The scene is rendered in a photorealistic style.\n"
+      ]
+    },
+    {
+      "id": 6,
+      "type": "ShowText|pysssss",
+      "pos": [
+        400.6974182128906,
+        383.5249328613281
+      ],
+      "size": [
+        404.3658142089844,
+        153.22216796875
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 55,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null,
+          "shape": 6
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "",
+        "A stylized illustration depicts a large, white rubber ducky floating on a body of water at night.  A black cat, wearing an orange baseball cap with the word \"LEO\" in white lettering, sits atop the duck. The cat has bright green eyes. The water is a dark teal, with small ripples and highlights suggesting movement. The background is a deep blue night sky. The duck and cat are brightly lit, creating a contrast with the darker background and water. The style is cartoonish and flat, with minimal shading and detail."
+      ]
+    },
+    {
+      "id": 2,
+      "type": "LoadImage",
+      "pos": [
+        -12.575531005859375,
+        68.97264099121094
+      ],
+      "size": [
+        316.7715759277344,
+        314
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            51
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "一只巨大的可爱的发光白色鸭子，背上躺着一直绿色眼睛的黑色猫带着橘色的帽子上写着leo，治愈宫崎骏风格，极简简约，在蓝色发光的海中，昏暗简约背景 (1).png",
+        "image"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "PreviewImage",
+      "pos": [
+        859.158935546875,
+        67.37272644042969
+      ],
+      "size": [
+        654.9736938476562,
+        1101.5640869140625
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 54
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 18,
+      "type": "PreviewImage",
+      "pos": [
+        1567.50732421875,
+        69.00787353515625
+      ],
+      "size": [
+        666.172119140625,
+        1105.1641845703125
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 20
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 13,
+      "type": "ShowText|pysssss",
+      "pos": [
+        242.27862548828125,
+        -184.30130004882812
+      ],
+      "size": [
+        397.2799987792969,
+        184.90000915527344
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 46,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            19
+          ],
+          "slot_index": 0,
+          "shape": 6
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "",
+        "A stylized, hyperrealistic image depicting a large, white rubber ducky floating on a body of water at night.  A black cat, wearing an orange baseball cap with the word \"LEO\" in white lettering, sits atop the duck. The cat has bright green eyes. The water is a dark teal, with small ripples and highlights suggesting movement.  The duck and cat are brightly lit, creating a strong contrast with the darker background and water. The overall color palette is dominated by warm, glowing oranges and reds, with a strong contrast between light and shadow.  The lighting is dramatic, with a strong light source seemingly emanating from behind the duck and cat, creating a rim light effect and highlighting the texture. The background is a large digital billboard displaying \"The ainewsto\" in a sans-serif font on a reddish-orange background, hanging from a rocky overhang. Below it, a gray-brown sectional sofa sits on reddish-brown sand. The scene is set in a desert landscape with reddish-brown sand and rocky formations, under a clear light blue sky. A large, metallic spacecraft hovers in the background, kicking up dust. The style is playful yet slightly sinister, with a slightly desaturated look focusing on warm tones. The texture is soft and plush, giving a sense of depth and realism.\n"
+      ]
+    },
+    {
+      "id": 14,
+      "type": "ShowText|pysssss",
+      "pos": [
+        655.3232421875,
+        -185.16087341308594
+      ],
+      "size": [
+        394.8599853515625,
+        188.52999877929688
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 47,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [],
+          "slot_index": 0,
+          "shape": 6
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "",
+        "A stylized, hyperrealistic image depicting a large, white rubber ducky floating on a body of water at night.  A black cat, wearing an orange baseball cap with the word \"LEO\" in white lettering, sits atop the duck. The cat has bright green eyes. The water is a dark teal, with small ripples and highlights suggesting movement.  The duck and cat are brightly lit, creating a strong contrast with the darker background and water. The overall color palette is dominated by warm, glowing oranges and reds, with a strong contrast between light and shadow.  The lighting is dramatic, with a strong light source seemingly emanating from behind the duck and cat, creating a rim light effect and highlighting the texture. The background is a large digital billboard displaying \"The ainewsto\" in a sans-serif font on a reddish-orange background, hanging from a rocky overhang. Below it, a gray-brown sectional sofa sits on reddish-brown sand. The scene is set in a desert landscape with reddish-brown sand and rocky formations, under a clear light blue sky. A large, metallic spacecraft hovers in the background, kicking up dust. The style is playful yet slightly sinister, with a slightly desaturated look focusing on warm tones. The texture is soft and plush, giving a sense of depth and realism.\n"
+      ]
+    },
+    {
+      "id": 15,
+      "type": "ShowText|pysssss",
+      "pos": [
+        1066.5977783203125,
+        -184.9000244140625
+      ],
+      "size": [
+        396.0699768066406,
+        187.3199920654297
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 48,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [],
+          "shape": 6
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "",
+        "A stylized, hyperrealistic image depicting a large, white rubber ducky floating on a body of water at night.  A black cat, wearing an orange baseball cap with the word \"LEO\" in white lettering, sits atop the duck. The cat has bright green eyes. The water is a dark teal, with small ripples and highlights suggesting movement.  The duck and cat are brightly lit, creating a strong contrast with the darker background and water. The overall color palette is dominated by warm, glowing oranges and reds, with a strong contrast between light and shadow.  The lighting is dramatic, with a strong light source seemingly emanating from behind the duck and cat, creating a rim light effect and highlighting the texture. The background is a large digital billboard displaying \"The ainewsto\" in a sans-serif font on a reddish-orange background, hanging from a rocky overhang. Below it, a gray-brown sectional sofa sits on reddish-brown sand. The scene is set in a desert landscape with reddish-brown sand and rocky formations, under a clear light blue sky. A large, metallic spacecraft hovers in the background, kicking up dust. The style is playful yet slightly sinister, with a slightly desaturated look focusing on warm tones. The texture is soft and plush, giving a sense of depth and realism.\n"
+      ]
+    },
+    {
+      "id": 16,
+      "type": "ShowText|pysssss",
+      "pos": [
+        1480.5489501953125,
+        -184.73851013183594
+      ],
+      "size": [
+        397.2630615234375,
+        188.7053985595703
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 49,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [],
+          "shape": 6
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 17,
+      "type": "ComfyUI-ImageFx",
+      "pos": [
+        1893.0498046875,
+        -187.53294372558594
+      ],
+      "size": [
+        332.6513977050781,
+        191.2154083251953
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "prompt",
+          "type": "STRING",
+          "link": 19,
+          "widget": {
+            "name": "prompt"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "generated_images",
+          "type": "IMAGE",
+          "links": [
+            20
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "seed",
+          "type": "STRING",
+          "links": null,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ComfyUI-ImageFx"
+      },
+      "widgets_values": [
+        "",
+        954287,
+        "randomize",
+        "16:9 (Landscape)",
+        3
+      ]
+    },
+    {
+      "id": 35,
+      "type": "ComfyUI-Whisk",
+      "pos": [
+        404.9886169433594,
+        78.20560455322266
+      ],
+      "size": [
+        400,
+        228
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "subject_image",
+          "type": "IMAGE",
+          "link": 51,
+          "shape": 7
+        },
+        {
+          "name": "scene_image",
+          "type": "IMAGE",
+          "link": 52,
+          "shape": 7
+        },
+        {
+          "name": "style_image",
+          "type": "IMAGE",
+          "link": 53,
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "generated_images",
+          "type": "IMAGE",
+          "links": [
+            54
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "subject_prompt",
+          "type": "STRING",
+          "links": [
+            55
+          ],
+          "slot_index": 1
+        },
+        {
+          "name": "scene_prompt",
+          "type": "STRING",
+          "links": [
+            56
+          ],
+          "slot_index": 2
+        },
+        {
+          "name": "style_prompt",
+          "type": "STRING",
+          "links": [
+            57
+          ],
+          "slot_index": 3
+        },
+        {
+          "name": "prompts",
+          "type": "STRING",
+          "links": [
+            58
+          ],
+          "slot_index": 4
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ComfyUI-Whisk"
+      },
+      "widgets_values": [
+        "black cat with a duck",
+        3,
+        1908763980,
+        "randomize"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "LoadImage",
+      "pos": [
+        -12.90776252746582,
+        455.0110168457031
+      ],
+      "size": [
+        315,
+        314
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            52
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "leo19000_IMAGE_A_film_poster_with_the_title_The_ainewsto_writte_b2628f27-c56c-42ec-86d0-8f5218b4cd5d.png",
+        "image"
+      ]
+    },
+    {
+      "id": 34,
+      "type": "ComfyUI-Whisk-Prompts",
+      "pos": [
+        -3.9363317489624023,
+        -182.1118927001953
+      ],
+      "size": [
+        216.0800018310547,
+        181.85000610351562
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "prompts",
+          "type": "STRING",
+          "link": 58,
+          "widget": {
+            "name": "prompts"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "prompt1",
+          "type": "STRING",
+          "links": [
+            46
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "prompt2",
+          "type": "STRING",
+          "links": [
+            47
+          ],
+          "slot_index": 1
+        },
+        {
+          "name": "prompt3",
+          "type": "STRING",
+          "links": [
+            48
+          ],
+          "slot_index": 2
+        },
+        {
+          "name": "prompt4",
+          "type": "STRING",
+          "links": [
+            49
+          ],
+          "slot_index": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ComfyUI-Whisk-Prompts"
+      },
+      "widgets_values": [
+        ""
+      ]
+    }
+  ],
+  "links": [
+    [
+      19,
+      13,
+      0,
+      17,
+      0,
+      "STRING"
+    ],
+    [
+      20,
+      17,
+      0,
+      18,
+      0,
+      "IMAGE"
+    ],
+    [
+      46,
+      34,
+      0,
+      13,
+      0,
+      "STRING"
+    ],
+    [
+      47,
+      34,
+      1,
+      14,
+      0,
+      "STRING"
+    ],
+    [
+      48,
+      34,
+      2,
+      15,
+      0,
+      "STRING"
+    ],
+    [
+      49,
+      34,
+      3,
+      16,
+      0,
+      "STRING"
+    ],
+    [
+      51,
+      2,
+      0,
+      35,
+      0,
+      "IMAGE"
+    ],
+    [
+      52,
+      3,
+      0,
+      35,
+      1,
+      "IMAGE"
+    ],
+    [
+      53,
+      4,
+      0,
+      35,
+      2,
+      "IMAGE"
+    ],
+    [
+      54,
+      35,
+      0,
+      5,
+      0,
+      "IMAGE"
+    ],
+    [
+      55,
+      35,
+      1,
+      6,
+      0,
+      "STRING"
+    ],
+    [
+      56,
+      35,
+      2,
+      7,
+      0,
+      "STRING"
+    ],
+    [
+      57,
+      35,
+      3,
+      8,
+      0,
+      "STRING"
+    ],
+    [
+      58,
+      35,
+      4,
+      34,
+      0,
+      "STRING"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.513158118230707,
+      "offset": [
+        332.2254294116682,
+        345.6596660056208
+      ]
+    }
+  },
+  "version": 0.4
+}
